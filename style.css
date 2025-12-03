@@ -6,6 +6,7 @@
 html{
     font-size: 14px;
     font-family: 'PlayfairDisplay', sans-serif;
+    color: #707070;
 }
 @font-face {
     font-family: 'ClickerScript';
@@ -61,6 +62,7 @@ nav div{
 }
 button{
     height: 48px;
+    width: 134px;
     border: none;
     cursor: pointer;
     border-radius: 20px;
@@ -84,7 +86,6 @@ nav button{
     justify-content: flex-start;
     align-items: center;
 }
-.s1_cont button{width: 134px;}
 .s1{
     width: 90%;
     height: 85%;
@@ -157,7 +158,6 @@ nav button{
     border:  1px solid #F9C06A6B;
 }
 .card button{
-    width: 134px;
     position: relative;
     top: 24px;
 }
@@ -170,9 +170,78 @@ nav button{
     align-items: center;
 }
 .p16{font-size: 1.15rem;}
-.card .p3, .card .p1{color: #603809;} 
-.section3 h2{color: #603809;}
+.card .p3, .card .p1{color: #603809; font-weight: bold;} 
+.section3 h2, .section4 h2, .section4 h3{color: #603809;}
 .section3 img{
     width: 100%;
     height: 57.3%;
+}
+.section4{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section4 .cards{height: 50%; align-items: center;}
+.alo{
+    position: absolute;
+    top: 2650px;
+    left: 1550px;
+    transform: scaleX(-1);
+}
+.section4 .card{
+    justify-content: space-evenly;
+    text-align: center;
+    height: 70%;
+}
+.section4 .card div{
+    margin: 0;
+    width: 80%;
+}
+.section4 .card:first-child{
+    background-color: #F9C06A6B;
+}
+.niz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section5{
+    width: 100vw;
+    height: 70vh;
+    display: flex;justify-content: flex-end;
+    gap: 250px;
+    align-items: center;
+     background: linear-gradient(rgba(96, 56, 9, 0.8)), url(картинки/fon2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s5L{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.s5L p{
+    width: 70%;
+    line-height: 2;
+}
+.s5R{
+    height: 100%;
+    width: 36.5%;
+    background-image: url(картинки/coffee_bean.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.s5R img{
+    width: 55%;
+    height: 75%;
 }
