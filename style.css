@@ -26,10 +26,14 @@ h2{font-size: 3.9rem;}
 .p1{font-size: 1.3rem;}
 .p2{font-size: 1.45rem;}
 .p3{font-size: 1.6rem;}
+.p4{font-size: 1.9rem; font-weight: bold;}
 nav button{font-size: 1rem;} 
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color: #603809;
 }
 header{
     width: 100%;
@@ -60,6 +64,9 @@ nav div{
     justify-content: space-between;
     align-items: center;
 }
+nav div a{
+    text-decoration: underline;
+}
 button{
     height: 48px;
     width: 134px;
@@ -69,6 +76,7 @@ button{
     background-color: #F9C06A;
     box-shadow: 0 5px 10px #F9C06A;
     font-size: 1.15rem;
+    font-family: 'PlayfairDisplay', sans-serif;
 }
 nav button{
     width: 100px;
@@ -215,7 +223,7 @@ nav button{
     display: flex;justify-content: flex-end;
     gap: 250px;
     align-items: center;
-     background: linear-gradient(rgba(96, 56, 9, 0.8)), url(картинки/fon2.png);
+    background: linear-gradient(rgba(96, 56, 9, 0.8)), url(картинки/fon2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -244,4 +252,193 @@ nav button{
 .s5R img{
     width: 55%;
     height: 75%;
+}
+.section6{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.blast, .blast1{
+    width: 26%;
+    height: 26%;
+}
+.blast{
+    position: absolute;
+    transform: scaleY(-1);
+    top: 5000px;
+    right: 1430px;
+}
+.blast1{
+    position: absolute;
+    top: 4550px;
+    left: 1430px;
+    transform: scaleX(-1);
+}
+.section6 h2, .section6 h1, .section6 h3{color: #603809; font-weight: bold;}
+.section6 h1{
+    font-family: 'PlayfairDisplay', sans-serif;
+    width: 15%;
+    height: 30%;
+}
+.conttt6 p{color: black;}
+.section6 h1{align-self: flex-start;}
+.s6_da{
+    width: 80%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s6_da .conttt6{
+    width: 90%;
+    height: 100%;
+    background-color: #FFF9F1;
+    border:  1px solid #F9C06A6B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conttt6 .c6{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+.c6 div{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.conttt6 img{
+    position: relative;
+    top: 10px;
+}
+.p1{
+    width: 90%;
+    text-align: center;
+    line-height: 2;
+}
+.section6 button{
+    height: 86px;
+    width: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    position: relative;
+    left: 40px;
+}
+.b2{
+    position: relative;
+    right: 40px;
+}
+.section7{
+    background: linear-gradient(rgba(96, 56, 9, 0.8)), url(картинки/fon2.png);
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cup1, .cup2{
+    width: 20%;
+    height: 45%;
+
+}
+.cup1{
+    position: absolute;
+    top: 5600px;
+    left: 1545px;
+    transform: scaleX(-1);
+}
+.cup2{
+    position: absolute;
+    top: 5600px;
+    right: 1550px;
+}
+.s7_cont{
+    color: white;
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.s7_cont div{
+    padding-left: 2%;
+    width: 50%;
+    height: 17%;
+    background-color: #FFF9F1;
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.s7_cont div button{
+    height: 100%;
+    border-radius: 5px;
+    color: #603809;
+}
+footer{
+    color: white;
+    background: linear-gradient(rgba(96, 56, 9, 0.9)), url(картинки/fotter_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.end{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.end a, .end li{font-size: 1.3rem;}
+.ft, .ftr_s, .fn{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ft{
+    width: 30%;
+    line-height: 2;
+}
+.ft h2{font-family: 'ClickerScript', sans-serif;font-weight: normal;}
+.ft div{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.end ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.ftr_s{
+    width: 20%;
+}
+.fn{
+    width: 30%;
 }
