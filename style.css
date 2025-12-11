@@ -114,11 +114,11 @@ nav button{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
 .section2 .coffee_blast{
     position: absolute;
     top: 1750px;
-    right: 1550px;
+    left: 0;
 }
 .s2_cont{
     width: 80%;
@@ -197,7 +197,8 @@ nav button{
 .alo{
     position: absolute;
     top: 2650px;
-    left: 1550px;
+    right: 0;
+    left: auto;
     transform: scaleX(-1);
 }
 .section4 .card{
@@ -251,7 +252,7 @@ nav button{
 }
 .s5R img{
     width: 55%;
-    height: 75%;
+    height: auto;
 }
 .section6{
     width: 100vw;
@@ -270,12 +271,13 @@ nav button{
     position: absolute;
     transform: scaleY(-1);
     top: 5000px;
-    right: 1430px;
+    left: 0;
 }
 .blast1{
     position: absolute;
     top: 4550px;
-    left: 1430px;
+    right: 0;
+    left: auto;
     transform: scaleX(-1);
 }
 .section6 h2, .section6 h1, .section6 h3{color: #603809; font-weight: bold;}
@@ -358,16 +360,17 @@ nav button{
     height: 45%;
 
 }
-.cup1{
+ .cup1{
     position: absolute;
     top: 5600px;
-    left: 1545px;
+    right: 0;
+    left: auto;
     transform: scaleX(-1);
 }
 .cup2{
     position: absolute;
     top: 5600px;
-    right: 1550px;
+    left: 0;
 }
 .s7_cont{
     color: white;
@@ -436,9 +439,24 @@ footer{
     flex-direction: column;
     line-height: 2;
 }
-.ftr_s{
-    width: 20%;
+.ftr_s{ width: 20%;}
+.fn{ width: 30%; }
+@media (min-width:1440px) and (max-width:1740px)
+{
+    html{
+        font-size: 11px;
+    }
+nav div{
+    width: 15%;
 }
-.fn{
-    width: 30%;
+.cup {
+    width: 45%;
+    height: 75%;
+}
+.cards{height: 45%;}
+.s5R {
+    width: 40%;
+    background-size: cover;
+}
+.s5R img{width: 63%;}
 }
