@@ -358,7 +358,6 @@ nav button{
 .cup1, .cup2{
     width: 20%;
     height: 45%;
-
 }
  .cup1{
     position: absolute;
@@ -459,4 +458,96 @@ nav div{
     background-size: cover;
 }
 .s5R img{width: 63%;}
+}
+@media (min-width:810px) and (max-width:1440px) {
+     html{
+        font-size: 11px;
+    }
+    nav div{width: 19%;}
+    nav div button{width: 70px;}
+    .cup {
+        width: auto;
+        height: 45%;
+    }
+    .cards{
+        width: 100%;
+        height: 40%;
+        flex-wrap: wrap;
+    }
+    .s5R {
+    width: 40%;
+    background-size: cover;
+    }
+    .section5{gap: 13%;}
+    .s5R img{width: 75%;}
+    .coffee_blast,.cup1, .cup2, .blast, .blast1, .alo
+    {width: 30vw;height: auto;}
+    .cup1, .cup2{top: 5750px;}
+}
+@media (min-width:390px) and (max-width:810px) {
+    html{
+        font-size: 8px;
+    }
+    footer{align-items: center;}
+    .end{
+        width: 80%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .ft, .ftr_s, .fn {
+        width: 40%;
+    height: 50%;
+    }
+    .s1_cont {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+    }
+    .section1 nav ul{display: none;}
+    nav div{width: 35%;}
+    nav div button{width: 50%;height: 24px;}
+    .cup {display: none;}
+    .s2_cont {justify-content: center;}
+    .s2_l {
+        width: 80%;
+        height: 50%;
+        align-items: center;
+        text-align: center;
+    }
+    .section3{height: 90vh;}
+    .section3 h2, .section3 .p2{width: 80%; text-align: center;}
+    .cards{ flex-wrap: wrap;}
+    .card{width: 40%;height: 40%;}
+    .section4{height: 100vh;}
+    .section4 .card{height: 45%;}
+    .s5R{display: none;}
+    .section5{justify-content: center;}
+    .s5L{width: 80%;}
+    .section6{
+        gap: 30px;
+        text-align: center;
+    }
+    .s6_da{width: 100%;}
+    .conttt6 .c6 {
+        width: 70%;
+        gap: 10px;
+    }
+    .s7_cont {
+        width: 90%;
+        text-align: center;
+    }
+    .s7_cont div {width: 90%;}
+    .alo{top: 2900px;}
+    .blast, .blast1{
+        width: 40%;
+        height: auto;
+    }
+    .blast{top: 5700px;}
+    .blast1{top: 5200px;}
+    .cup1, .cup2{
+    width: 30%;
+    height: auto;
+    top:6330px
+}
 }
