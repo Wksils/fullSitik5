@@ -29,6 +29,7 @@ h2{font-size: 3.9rem;}
 .p4{font-size: 1.9rem; font-weight: bold;}
 nav button{font-size: 1rem;} 
 a{
+    font-size: 1rem;
     text-decoration: none;
     color: white;
 }
@@ -443,7 +444,7 @@ footer{
 @media (min-width:1440px) and (max-width:1740px)
 {
     html{
-        font-size: 11px;
+        font-size: 13.5px;
     }
 nav div{
     width: 15%;
@@ -457,12 +458,18 @@ nav div{
     width: 40%;
     background-size: cover;
 }
+.s5L{width: 38%;}
 .s5R img{width: 63%;}
+.cup1, .cup2{height: 40%;top: 5650px;}
 }
-@media (min-width:810px) and (max-width:1440px) {
+@media (min-width:810px) and (max-width:1439px) {
      html{
-        font-size: 11px;
+        font-size: 12.5px;
     }
+    .s1_cont{width: 80%;}
+    .s2_cont{width: 90%;}
+    .s5L{width: 50%;padding-left: 20px;}
+    .section6 h1{height: 25%;}
     nav div{width: 19%;}
     nav div button{width: 70px;}
     .cup {
@@ -470,33 +477,55 @@ nav div{
         height: 45%;
     }
     .cards{
-        width: 100%;
-        height: 40%;
+        width: 90%;
+        height: 70%;
         flex-wrap: wrap;
+        gap:30px;
     }
+    .section4 .cards{height: 65%;}
+    .section4 .card{height: 40%;}
+    .section3{height: 100vh;}
+    .section4{height: 100vh;}
+    .card{width: 35%;height: 47%;}
     .s5R {
     width: 40%;
     background-size: cover;
     }
-    .section5{gap: 13%;}
+    .section5{gap: 10%; justify-content: center;}
+    .section6 .c6{gap: 25px;}
     .s5R img{width: 75%;}
     .coffee_blast,.cup1, .cup2, .blast, .blast1, .alo
     {width: 30vw;height: auto;}
-    .cup1, .cup2{top: 5750px;}
-}
-@media (min-width:390px) and (max-width:810px) {
-    html{
-        font-size: 8px;
+    .cup1, .cup2{top: 6450px;}
+    footer{height: 90vh;align-items: center;}
+    .s6_da{height: 65%;}
+    .s7_cont{width: 80%;text-align: center;}
+    .end{flex-wrap: wrap; gap: 0}
+    .ftr_s, .ft, .fn{
+        width: 45%;
+        height: 30%;
     }
-    footer{align-items: center;}
+    .section2 .coffee_blast {top: 1850px;}
+    .alo{display: none;}
+    .blast1{top: 5150px;}
+    .blast{top: 5750px;}
+}
+@media (min-width:390px) and (max-width:809px) {
+    html{
+        font-size: 11px;
+    }
+    h1{font-size: 15rem;}
+    footer{
+        height: 100vh;
+        align-items: center;}
     .end{
+        flex-direction: column;
         width: 80%;
-        gap: 20px;
-        flex-wrap: wrap;
+        height: 90%;
     }
     .ft, .ftr_s, .fn {
-        width: 40%;
-    height: 50%;
+        width: 90%;
+    height: 30%;
     }
     .s1_cont {
     width: 100%;
@@ -515,19 +544,25 @@ nav div{
         align-items: center;
         text-align: center;
     }
-    .section3{height: 90vh;}
+    .section3{height: 180vh;}
     .section3 h2, .section3 .p2{width: 80%; text-align: center;}
-    .cards{ flex-wrap: wrap;}
-    .card{width: 40%;height: 40%;}
-    .section4{height: 100vh;}
-    .section4 .card{height: 45%;}
+    .cards{ height: 80%;
+         flex-direction: column;
+          align-items: center;
+        justify-content: space-evenly;}
+    .card{width: 70%;height: 22%;}
+    .section4{height: 180vh;text-align: center;}
+    .section4 .cards {height: 70%;}
+    .section4 .card{height: 20%;}
     .s5R{display: none;}
     .section5{justify-content: center;}
     .s5L{width: 80%;}
     .section6{
-        gap: 30px;
+        height: 150vh;
+        gap: 50px;
         text-align: center;
     }
+    .section6 h1 {height: 15%;}
     .s6_da{width: 100%;}
     .conttt6 .c6 {
         width: 70%;
@@ -538,16 +573,12 @@ nav div{
         text-align: center;
     }
     .s7_cont div {width: 90%;}
-    .alo{top: 2900px;}
+    .alo{top: 3850px;}
     .blast, .blast1{
         width: 40%;
         height: auto;
     }
-    .blast{top: 5700px;}
-    .blast1{top: 5200px;}
+    .blast, .blast1{display: none;}
     .cup1, .cup2{
-    width: 30%;
-    height: auto;
-    top:6330px
-}
+display:none;}
 }
